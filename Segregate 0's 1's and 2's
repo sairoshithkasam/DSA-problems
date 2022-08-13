@@ -1,0 +1,15 @@
+a=[0,1,2,1,2,0,2,1]
+low=a[0]
+mid=a[0]
+high=a[len(a)-1]
+while mid<=high:
+  if a[mid]==0:
+    swap(a[low],a[mid])
+    low+=1
+    mid+=1
+  if a[mid]==1:
+    mid+=1
+   if a[mid]==2:
+    swap(a[mid],a[high])
+    high-=1
+    
