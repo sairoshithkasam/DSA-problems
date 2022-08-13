@@ -1,0 +1,10 @@
+a=[5,-4,-2,6,-1]
+cursum=0
+maxsum=0
+for i in range(len(a)):
+    cursum=cursum+a[i]
+    if cursum>maxsum:     if cursum is 0 then just ignore it if cursum is greater than maxsum then put cursum is equal to maxsum
+        maxsum=cursum
+    if cursum<0:
+        cursum=0
+print(maxsum)
